@@ -105,6 +105,7 @@ public class MavenWrapperDownloader {
                 }
             });
         }
+        
         URL website = new URL(urlString);
         ReadableByteChannel rbc;
         rbc = Channels.newChannel(website.openStream());
